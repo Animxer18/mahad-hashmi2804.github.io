@@ -196,10 +196,10 @@
             var title;
 
             if (season && episode) {
-                iframe.src = `https://multiembed.mov/?video_id=${id}&s=${season}&e=${episode}`;
+                iframe.src = `https://embed.smashystream.com/playere.php?imdb=${imdb}&season=${season}&episode=${episode}`;
             }
             else {
-                iframe.src = `https://multiembed.mov/?video_id=${id}`;
+                iframe.src = `https://embed.smashystream.com/?video_id=${id}`;
             }
 
             jQuery.ajax({
